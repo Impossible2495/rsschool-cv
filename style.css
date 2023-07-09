@@ -38,7 +38,18 @@ body {
   background-color: grey;
 }
 
-img {
-  width: 240px;
-  height: 240px;
+.hero-img {
+  border-radius: 5% 5% 5% 5%;
+  width: 150px;
+  height: 150px;
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+}
+
+.section {
+  width: 50%;
 }
