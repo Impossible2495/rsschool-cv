@@ -10,13 +10,19 @@
 }
 
 body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
   background-color: #ffffbb;
 }
 
@@ -24,6 +30,7 @@ body {
   max-width: 1440px;
   margin: 0 auto;
 }
+
 
 .nav-list {
   display: flex;
@@ -60,10 +67,42 @@ body {
   width: 50%;
 }
 
+.section-title {
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
 .section-list {
   padding: 0;
 }
 
 ul {
   list-style-type: none;
+}
+
+.footer-container {
+  line-height: 50px;
+  background-color: grey;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.footer-container img {
+  margin-top: 10px;
+  margin-right: 120px;
+  width: 100px;
+  height: 40px;
+}
+
+.footer-container p {
+  margin-left: 120px;
+}
+
+.footer-container a {
+  text-decoration: none;
+  color: white;
 }
