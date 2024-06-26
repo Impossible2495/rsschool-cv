@@ -1,4 +1,4 @@
-# Abramov Ruslan ![CV Photo](/assets/img/AvatarCV.jpg "CV photo")
+# Abramov Ruslan
 ## Contact information:
  * **Phone:** +7(977)168-46-25
  * **Telegram:** @Impossible24
