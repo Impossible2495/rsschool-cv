@@ -14,12 +14,12 @@ body {
   font-size: 18px;
   font-weight: 500;
   line-height: 1.5;
+  color: rgb(48, 46, 46);
 }
 
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -34,13 +34,12 @@ body {
 
 .nav-list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   align-items: center;
   list-style: none;
 }
 
 .nav-link {
-  padding: 0 20px;
   line-height: 50px;
   color: white;
   font-weight: bold;
@@ -49,17 +48,19 @@ body {
 
 .nav {
   background-color: grey;
+  border-radius: 4px;
 }
 
 .hero-img {
   border-radius: 5% 5% 5% 5%;
   width: 150px;
-  height: 150px;
+  height: 165px;
 }
 
 .main-container {
   display: flex;
   flex-wrap: wrap;
+  text-align: center;
   width: 75%;
 }
 
@@ -68,10 +69,11 @@ body {
 }
 
 .section-title {
-  font-size: 20px;
-  font-weight: 500;
+  font-size: 32px;
+  font-weight: 700;
+  color: gray;
   text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
 }
 
 .section-list {
@@ -79,30 +81,22 @@ body {
 }
 
 ul {
+  margin-top: 0px;
   list-style-type: none;
 }
 
 .footer-container {
   line-height: 50px;
+  border-radius: 4px;
   background-color: grey;
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 
 }
 
 .footer-container img {
-  margin-top: 10px;
-  margin-right: 120px;
+  margin-top: 18px;
   width: 100px;
   height: 40px;
-}
-
-.footer-container p {
-  margin-left: 120px;
-}
-
-.footer-container a {
-  text-decoration: none;
-  color: white;
 }
